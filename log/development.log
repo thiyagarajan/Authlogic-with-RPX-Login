@@ -1,0 +1,1164 @@
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-01 12:42:00) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 12:59:57) [GET]
+
+NoMethodError (undefined method `require_no_user' for #<UserSessionsController:0x4754340>):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (93.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:01:14) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+NoMethodError (undefined method `require_no_user' for #<UserSessionsController:0x4623078>):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:05:16) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+NameError (uninitialized constant Authlogic):
+  app/models/user_session.rb:1
+  app/controllers/user_sessions_controller.rb:6:in `new'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:09:06) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'authlogic_fbconnect_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'authlogic_fbconnect_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'authlogic_fbconnect_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'authlogic_fbconnect_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'authlogic_fbconnect_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+Rendering user_sessions/new
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'authlogic_fbconnect_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'authlogic_fbconnect_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+ActionView::TemplateError (undefined method `login_before_type_cast' for #<UserSession: no credentials provided>) on line #6 of app/views/user_sessions/new.html.erb:
+3: <% form_for @user_session, :url => user_session_path do |f| %>
+4:   <%= f.error_messages %>
+5:   <%= f.label :login %><br />
+6:   <%= f.text_field :login %><br />
+7:   <br />
+8:   <%= f.label :password %><br />
+9:   <%= f.password_field :password %><br />
+
+    app/views/user_sessions/new.html.erb:6
+    app/views/user_sessions/new.html.erb:3
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (46.9ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (406.3ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (281.3ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (93.8ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20110101072331)
+  [4;36;1mSQL (312.5ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255) NOT NULL, `email` varchar(255) NOT NULL, `crypted_password` varchar(255) NOT NULL, `password_salt` varchar(255) NOT NULL, `persistence_token` varchar(255) NOT NULL, `single_access_token` varchar(255) NOT NULL, `perishable_token` varchar(255) NOT NULL, `login_count` int(11) DEFAULT 0 NOT NULL, `failed_login_count` int(11) DEFAULT 0 NOT NULL, `last_request_at` datetime, `current_login_at` datetime, `last_login_at` datetime, `current_login_ip` varchar(255), `last_login_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (171.9ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20110101072331')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:12:28) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+
+NameError (undefined local variable or method `my_value' for #<Class:0x4462770>):
+  app/models/user.rb:3
+  app/models/user.rb:2
+  app/controllers/user_sessions_controller.rb:6:in `new'
+  app/controllers/user_sessions_controller.rb:6:in `new'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (203.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:16:38) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering user_sessions/new
+Completed in 172ms (View: 31, DB: 16) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2011-01-01 13:16:59) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "login"=>""}, "action"=>"create", "authenticity_token"=>"h6y4IB8ekle8dP9y4f8wyXGgOgdKylAZixo89W2VYXY=", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering user_sessions/new
+Completed in 78ms (View: 31, DB: 16) | 200 OK [http://localhost/user_session]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2011-01-01 13:20:20) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "login"=>""}, "action"=>"create", "authenticity_token"=>"h6y4IB8ekle8dP9y4f8wyXGgOgdKylAZixo89W2VYXY=", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering user_sessions/new
+Completed in 78ms (View: 16, DB: 16) | 200 OK [http://localhost/user_session]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#show (for 127.0.0.1 at 2011-01-01 13:20:26) [GET]
+  Parameters: {"action"=>"show", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, destroy, and new):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:20:30) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering user_sessions/new
+Completed in 94ms (View: 16, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:25:36) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;35;1mSQL (62.5ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 07:45:36') [0m
+Completed in 438ms (View: 250, DB: 78) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-01 13:25:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:27:44) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 07:47:44') [0m
+Completed in 94ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-01 13:27:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:29:35) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 07:49:35') [0m
+Completed in 94ms (View: 16, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-01 13:29:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-01-01 13:29:44) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (15.6ms)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 07:49:44') [0m
+Completed in 109ms (View: 47, DB: 16) | 200 OK [http://localhost/account/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-01 13:29:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-01-01 13:29:51) [POST]
+  Parameters: {"commit"=>"Register", "action"=>"create", "authenticity_token"=>"h6y4IB8ekle8dP9y4f8wyXGgOgdKylAZixo89W2VYXY=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "login"=>""}}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (62.5ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY '') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '32c6618f844e96526ae8e7a5ac15f2f7d81f26c489bb3996cee00d30b129d772ae4c86f555076480747165d6a4d1c1af405ac7f5e66110f70e5b21563cd12529') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'teDwah9XD7wHBylv4gmR') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (15.6ms)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 07:49:51') [0m
+Completed in 531ms (View: 47, DB: 78) | 200 OK [http://localhost/account]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-01 13:29:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-01-01 13:32:43) [POST]
+  Parameters: {"commit"=>"Register", "action"=>"create", "authenticity_token"=>"h6y4IB8ekle8dP9y4f8wyXGgOgdKylAZixo89W2VYXY=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "login"=>""}}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY '') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'df872a564f26b0c9eece49d3f5ef2331253781a9ddb3c16a136041552ecdcc6a5a5ef0efbcf5859f36eced32385585c92d63ce829f0685c528235d5c58569fc6') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'TFsyD8A3fX6IlvDIWx') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (46.9ms)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 07:52:43') [0m
+Completed in 250ms (View: 109, DB: 0) | 200 OK [http://localhost/account]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-01-01 13:34:28) [POST]
+  Parameters: {"commit"=>"Register", "action"=>"create", "authenticity_token"=>"h6y4IB8ekle8dP9y4f8wyXGgOgdKylAZixo89W2VYXY=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "login"=>""}}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY '') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '736cacba3196c2fac4937ec6610b5c56e5f77804e37fefecd7aef3cc8982d297c464de7c8a88bcbc7be18942fff9d2e522f494fc7862d2d0a89c472fde18928d') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'T4cg4H47NrCaI9QVJGB') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (0.0ms)
+Completed in 141ms (View: 47, DB: 0) | 200 OK [http://localhost/account]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:34:43) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:35:10) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 07:55:10') [0m
+Completed in 63ms (View: 31, DB: 16) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2011-01-01 13:35:14) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "login"=>""}, "action"=>"create", "authenticity_token"=>"h6y4IB8ekle8dP9y4f8wyXGgOgdKylAZixo89W2VYXY=", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 07:55:14') [0m
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/user_session]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:36:53) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 07:56:53') [0m
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:41:18) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 08:01:19') [0m
+Completed in 78ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:41:19) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 08:01:19') [0m
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-01-01 13:41:53) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (15.6ms)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 08:01:53') [0m
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/account/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-01-01 13:42:10) [POST]
+  Parameters: {"commit"=>"Register", "action"=>"create", "authenticity_token"=>"h6y4IB8ekle8dP9y4f8wyXGgOgdKylAZixo89W2VYXY=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "login"=>"thiyagarajan"}}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'thiyagarajan') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'e084d91a8fc1c0a39d1c87099e1484cf9f018732606bb9e06bb18729bff6fc3787fc323899852a04e15ad74457d8158ca0c269c0319986a995fbb2ae5818803e') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'wLKuUaeno3WkubCNHp8P') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (15.6ms)
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 08:02:11') [0m
+Completed in 688ms (View: 31, DB: 0) | 200 OK [http://localhost/account]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-01-01 13:42:42) [POST]
+  Parameters: {"commit"=>"Register", "action"=>"create", "authenticity_token"=>"h6y4IB8ekle8dP9y4f8wyXGgOgdKylAZixo89W2VYXY=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "login"=>"thiyagarajannv@gmail.com"}}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'thiyagarajannv@gmail.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '0abe80c9b02387a6af89b16c956e0029e1b9dd4b91c180ca80f54ebde036acf45ee59b3c307d6ba8bd31b32f6882cf3015a4dc4905e8721f7a46b5a9d2c960a2') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'jHagtAnmM1kWaYdwGtPh') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (0.0ms)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 08:02:42') [0m
+Completed in 188ms (View: 31, DB: 16) | 200 OK [http://localhost/account]
+  [4;35;1mSQL (15.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-01 13:43:48) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 08:03:48') [0m
+Completed in 78ms (View: 16, DB: 31) | 200 OK [http://localhost/user_session/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-01-01 13:43:50) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (15.6ms)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 08:03:50') [0m
+Completed in 266ms (View: 156, DB: 16) | 200 OK [http://localhost/account/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-01-01 13:43:59) [POST]
+  Parameters: {"commit"=>"Register", "action"=>"create", "authenticity_token"=>"h6y4IB8ekle8dP9y4f8wyXGgOgdKylAZixo89W2VYXY=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "login"=>"", "email"=>""}}
+  [4;35;1mUser Columns (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY '') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY '') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '123cdd5eab1a6a2c8695221ad527ff6ef18c3ef218cbdbbfc5e76078ca23d116e473031b002fe8d40062b83fa281533f0f42b96fea0636be95cc79ef7055ba77') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'hZKP4qZ291cSKdjqLXJ') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (46.9ms)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 08:03:59') [0m
+Completed in 250ms (View: 94, DB: 16) | 200 OK [http://localhost/account]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-01-01 13:44:24) [POST]
+  Parameters: {"commit"=>"Register", "action"=>"create", "authenticity_token"=>"h6y4IB8ekle8dP9y4f8wyXGgOgdKylAZixo89W2VYXY=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "login"=>"thiyagarajan", "email"=>"thiyagarajannv@gmail.com"}}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'thiyagarajannv@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'thiyagarajan') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '02abd3dd881ae1449b07f85a640ff13a50489495e8bdd21df9ec8142eee130f88d1d6f538623bdb11ad78ba3ba81f12d6d629972b6841189186bb2910e3ab3eb') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'orDgC6Vggxyl3nnvPLUE') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('orDgC6Vggxyl3nnvPLUE', '2011-01-01 08:14:24', '2011-01-01 08:14:24', 'ee028c5a4f3aef1da0d442f8865f4115fcf2da7cb53ec7d4a068d55d0edc0804acc14ddf1aa8e818da6b76b158624bc083232db58064b421cf8001fa2ffaec34', 'Pxr44LTF3zeLLflCaO', '2011-01-01 08:14:24', 0, '127.0.0.1', 'UPTpVOYi9sfEZCg2ODE', '2011-01-01 08:14:24', '02abd3dd881ae1449b07f85a640ff13a50489495e8bdd21df9ec8142eee130f88d1d6f538623bdb11ad78ba3ba81f12d6d629972b6841189186bb2910e3ab3eb', 1, NULL, 'thiyagarajan', NULL, 'thiyagarajannv@gmail.com')[0m
+  [4;36;1mSQL (125.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/account
+Completed in 188ms (DB: 125) | 302 Found [http://localhost/account]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-01-01 13:44:27) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (62.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`persistence_token` = '02abd3dd881ae1449b07f85a640ff13a50489495e8bdd21df9ec8142eee130f88d1d6f538623bdb11ad78ba3ba81f12d6d629972b6841189186bb2910e3ab3eb') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (62.5ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-01-01 08:14:27', `perishable_token` = '46OaHeoFEqpPCfUx5sGy', `last_request_at` = '2011-01-01 08:14:27' WHERE `id` = 1[0m
+  [4;35;1mSQL (218.8ms)[0m   [0mCOMMIT[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 08:04:27') [0m
+Completed in 688ms (View: 16, DB: 344) | 200 OK [http://localhost/account]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-01-01 13:44:41) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`persistence_token` = '02abd3dd881ae1449b07f85a640ff13a50489495e8bdd21df9ec8142eee130f88d1d6f538623bdb11ad78ba3ba81f12d6d629972b6841189186bb2910e3ab3eb') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.0ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-01-01 08:14:41', `perishable_token` = 'W5IgWTO0VHYSXzqliF8x', `last_request_at` = '2011-01-01 08:14:41' WHERE `id` = 1[0m
+  [4;35;1mSQL (93.8ms)[0m   [0mCOMMIT[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-01 08:04:41') [0m
+Completed in 188ms (View: 0, DB: 109) | 200 OK [http://localhost/account]
+  [4;36;1mSQL (31.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (31.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-20 23:39:56) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (156.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;35;1mSQL (93.8ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-20 17:59:56') [0m
+Completed in 531ms (View: 203, DB: 313) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#rpx_create (for 127.0.0.1 at 2011-01-20 23:40:46) [POST]
+  Parameters: {"token"=>"63f7b7a4a1592c09a5a80228ab7b940f71b9c815", "action"=>"rpx_create", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (62.5ms)[0m   [0mSHOW TABLES[0m
+
+NoMethodError (undefined method `find_or_initialize_by_identity_url' for #<Class:0x43917d8>):
+  app/controllers/user_sessions_controller.rb:24:in `rpx_create'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-20 23:42:43) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-20 18:02:43') [0m
+Completed in 31ms (View: 0, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#rpx_create (for 127.0.0.1 at 2011-01-20 23:42:59) [POST]
+  Parameters: {"token"=>"3afff50631548ad2247fe8745d7ccddfdf48cb3b", "action"=>"rpx_create", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+
+NoMethodError (undefined method `find_or_initialize_by_identity_url' for #<Class:0x45bc1f0>):
+  app/controllers/user_sessions_controller.rb:24:in `rpx_create'
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-20 23:50:18) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-20 18:10:18') [0m
+Completed in 156ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#rpx_create (for 127.0.0.1 at 2011-01-20 23:50:23) [POST]
+  Parameters: {"token"=>"2c710202d66886a061a7ecaa3d92ea2f67d8efcd", "action"=>"rpx_create", "controller"=>"user_sessions"}
+
+NoMethodError (undefined method `display_name=' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:26:in `rpx_create'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (890.6ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (718.8ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20110101072331)
+  [4;36;1mSQL (250.0ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255) NOT NULL, `email` varchar(255) NOT NULL, `crypted_password` varchar(255) NOT NULL, `password_salt` varchar(255) NOT NULL, `persistence_token` varchar(255) NOT NULL, `single_access_token` varchar(255) NOT NULL, `perishable_token` varchar(255) NOT NULL, `login_count` int(11) DEFAULT 0 NOT NULL, `failed_login_count` int(11) DEFAULT 0 NOT NULL, `last_request_at` datetime, `current_login_at` datetime, `last_login_at` datetime, `current_login_ip` varchar(255), `last_login_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (281.3ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20110101072331')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (46.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#rpx_create (for 127.0.0.1 at 2011-01-20 23:53:11) [POST]
+  Parameters: {"token"=>"2c710202d66886a061a7ecaa3d92ea2f67d8efcd", "action"=>"rpx_create", "controller"=>"user_sessions"}
+
+NoMethodError (undefined method `failed_login' for #<UserSessionsController:0x447b3a0>):
+  app/controllers/user_sessions_controller.rb:22:in `rpx_create'
+
+Rendered rescues/_trace (93.8ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#rpx_create (for 127.0.0.1 at 2011-01-20 23:54:00) [POST]
+  Parameters: {"token"=>"0afa1ba33e45bdbc1729efbfbd64dfed1d7a88bf", "action"=>"rpx_create", "controller"=>"user_sessions"}
+
+NoMethodError (undefined method `login=' for nil:NilClass):
+  app/controllers/user_sessions_controller.rb:26:in `rpx_create'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#rpx_create (for 127.0.0.1 at 2011-01-20 23:54:57) [POST]
+  Parameters: {"token"=>"0afa1ba33e45bdbc1729efbfbd64dfed1d7a88bf", "action"=>"rpx_create", "controller"=>"user_sessions"}
+
+ActionView::MissingTemplate (Missing template user_sessions/rpx_create.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-20 23:55:06) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-20 18:15:07') [0m
+Completed in 219ms (View: 172, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#rpx_create (for 127.0.0.1 at 2011-01-20 23:55:12) [POST]
+  Parameters: {"token"=>"9e8d596b74a81e17172ab27d2b0b4679bd6686f8", "action"=>"rpx_create", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+
+NoMethodError (undefined method `find_' for #<Class:0x44b2a98>):
+  app/controllers/user_sessions_controller.rb:24:in `rpx_create'
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-20 23:55:27) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-20 18:15:27') [0m
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#rpx_create (for 127.0.0.1 at 2011-01-20 23:55:40) [POST]
+  Parameters: {"token"=>"ce251dd8e0cd125d54c8ed6b5fe352d007ac295f", "action"=>"rpx_create", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` [0m
+
+NoMethodError (undefined method `login=' for []:Array):
+  app/controllers/user_sessions_controller.rb:26:in `rpx_create'
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-20 23:56:21) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-20 18:16:21') [0m
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#rpx_create (for 127.0.0.1 at 2011-01-20 23:56:26) [POST]
+  Parameters: {"token"=>"4f9d2a8454f3386d5668693553af836926010376", "action"=>"rpx_create", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+
+NoMethodError (undefined method `find_or_initialize_by_identity_url' for #<Class:0x4496c70>):
+  app/controllers/user_sessions_controller.rb:24:in `rpx_create'
+
+Rendered rescues/_trace (109.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-20 23:58:33) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-20 18:18:33') [0m
+Completed in 141ms (View: 125, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#rpx_create (for 127.0.0.1 at 2011-01-20 23:58:38) [POST]
+  Parameters: {"token"=>"17aebfea9263d31df8dd21495f6e2c51b21f1ad7", "action"=>"rpx_create", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSHOW TABLES[0m
+
+NoMethodError (undefined method `find_or_initialize_by_identity_url' for #<Class:0x439d3e8>):
+  app/controllers/user_sessions_controller.rb:24:in `rpx_create'
+
+Rendered rescues/_trace (187.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (31.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20110101072331)
+Migrating to AddUsersRbxIdentifier (20110120183729)
+  [4;36;1mSQL (296.9ms)[0m   [0;1mALTER TABLE `users` ADD `rpx_identifier` varchar(255)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (203.1ms)[0m   [0;1mCREATE INDEX `index_users_on_rpx_identifier` ON `users` (`rpx_identifier`)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (156.3ms)[0m   [0;1mALTER TABLE `users` CHANGE `login` `login` varchar(255) DEFAULT NULL[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (156.3ms)[0m   [0;1mALTER TABLE `users` CHANGE `crypted_password` `crypted_password` varchar(255) DEFAULT NULL[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (171.9ms)[0m   [0;1mALTER TABLE `users` CHANGE `password_salt` `password_salt` varchar(255) DEFAULT NULL[0m
+  [4;35;1mSQL (125.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20110120183729')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-21 00:20:40) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+ERROR: compiling _run_erb_app47views47user_sessions47new46html46erb RAISED compile error
+C:/Documents and Settings/Administrator/Desktop/authlogic_example/app/views/user_sessions/new.html.erb:16: Invalid char `\221' in expression
+C:/Documents and Settings/Administrator/Desktop/authlogic_example/app/views/user_sessions/new.html.erb:16: syntax error, unexpected kOR, expecting ')'
+...Login with Facebook, Google or other account’,thiyagarajannv...
+                              ^
+C:/Documents and Settings/Administrator/Desktop/authlogic_example/app/views/user_sessions/new.html.erb:16: Invalid char `\222' in expression
+C:/Documents and Settings/Administrator/Desktop/authlogic_example/app/views/user_sessions/new.html.erb:16: Invalid char `\222' in expression
+C:/Documents and Settings/Administrator/Desktop/authlogic_example/app/views/user_sessions/new.html.erb:16: Invalid char `\222' in expression
+C:/Documents and Settings/Administrator/Desktop/authlogic_example/app/views/user_sessions/new.html.erb:16: syntax error, unexpected ')', expecting kEND
+...n_url,:language=>’en’) ).to_s); @output_buffer
+                              ^
+Function body:           def _run_erb_app47views47user_sessions47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Login</h1>\n\n"
+
+;  form_for @user_session, :url => user_session_path do |f| ; @output_buffer.concat "\n  "
+; @output_buffer.concat(( f.error_messages ).to_s); @output_buffer.concat "\n  "
+; @output_buffer.concat(( f.label :login ).to_s); @output_buffer.concat "<br />\n  "
+; @output_buffer.concat(( f.text_field :login ).to_s); @output_buffer.concat "<br />\n  <br />\n  "
+
+; @output_buffer.concat(( f.label :password ).to_s); @output_buffer.concat "<br />\n  "
+; @output_buffer.concat(( f.password_field :password ).to_s); @output_buffer.concat "<br />\n  <br />\n  "
+
+; @output_buffer.concat(( f.check_box :remember_me ).to_s); @output_buffer.concat(( f.label :remember_me ).to_s); @output_buffer.concat "<br />\n  <br />\n  "
+
+; @output_buffer.concat(( f.submit "Login" ).to_s); @output_buffer.concat "\n"
+;  end ; @output_buffer.concat "\n\n"
+
+; @output_buffer.concat(( RPXNow.popup_code(‘Login with Facebook, Google or other account’,thiyagarajannv, rpx_login_url,:language=>’en’) ).to_s); @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Documents and Settings/Administrator/Desktop/authlogic_example/app/views/user_sessions/new.html.erb:19:in `compile!'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_view/renderable.rb:61:in `compile'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_view/renderable.rb:28:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_view/template.rb:205:in `render_template'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_view/base.rb:265:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_view/base.rb:262:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/base.rb:936:in `render_without_benchmark'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/benchmarking.rb:51:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.9/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.9/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/benchmarking.rb:51:in `render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/base.rb:1326:in `default_render'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/filters.rb:617:in `call_filters'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.9/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.9/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/flash.rb:151:in `perform_action'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/base.rb:532:in `send'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/filters.rb:606:in `process'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/base.rb:391:in `process'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/base.rb:386:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/routing/route_set.rb:438:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/dispatcher.rb:130
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.9/lib/active_record/query_cache.rb:29:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.9/lib/active_record/query_cache.rb:29:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.9/lib/active_record/query_cache.rb:9:in `cache'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.9/lib/active_record/query_cache.rb:28:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.9/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/string_coercion.rb:25:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/params_parser.rb:15:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/session/cookie_store.rb:100:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/failsafe.rb:26:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/dispatcher.rb:114:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/reloader.rb:34:in `run'
+c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.9/lib/action_controller/dispatcher.rb:108:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.9/lib/rails/rack/static.rb:31:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.9/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:159:in `process_client'
+c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `each'
+c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:158:in `process_client'
+c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `initialize'
+c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `new'
+c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:285:in `run'
+c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `initialize'
+c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `new'
+c:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/lib/mongrel.rb:268:in `run'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.9/lib/commands/server.rb:111
+c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/Documents and Settings/Administrator/Desktop/authlogic_example/app/views/user_sessions/new.html.erb:16: Invalid char `\221' in expression
+C:/Documents and Settings/Administrator/Desktop/authlogic_example/app/views/user_sessions/new.html.erb:16: syntax error, unexpected kOR, expecting ')'
+...Login with Facebook, Google or other account’,thiyagarajannv...
+                              ^
+C:/Documents and Settings/Administrator/Desktop/authlogic_example/app/views/user_sessions/new.html.erb:16: Invalid char `\222' in expression
+C:/Documents and Settings/Administrator/Desktop/authlogic_example/app/views/user_sessions/new.html.erb:16: Invalid char `\222' in expression
+C:/Documents and Settings/Administrator/Desktop/authlogic_example/app/views/user_sessions/new.html.erb:16: Invalid char `\222' in expression
+C:/Documents and Settings/Administrator/Desktop/authlogic_example/app/views/user_sessions/new.html.erb:16: syntax error, unexpected ')', expecting kEND
+...n_url,:language=>’en’) ).to_s); @output_buffer
+                              ^) on line #16 of app/views/user_sessions/new.html.erb:
+13:   <%= f.submit "Login" %>
+14: <% end %>
+15: 
+16: <%= RPXNow.popup_code(‘Login with Facebook, Google or other account’,thiyagarajannv, rpx_login_url,:language=>’en’) %>
+
+    app/views/user_sessions/new.html.erb:19:in `compile!'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-21 00:21:18) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+
+ActionView::TemplateError (undefined local variable or method `thiyagarajannv' for #<ActionView::Base:0x46d2ab8>) on line #16 of app/views/user_sessions/new.html.erb:
+13:   <%= f.submit "Login" %>
+14: <% end %>
+15: 
+16: <%= RPXNow.popup_code("Login with Facebook, Google or other account", thiyagarajannv, rpx_login_url,:language=>"en") %>
+
+    app/views/user_sessions/new.html.erb:16
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-21 00:21:27) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-20 18:41:27') [0m
+Completed in 109ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2011-01-21 00:21:38) [POST]
+  Parameters: {"token"=>"e09e3f025f1afb77943cf85ae50e57d577ff7e5a", "action"=>"create", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mUser Load (15.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`rpx_identifier` = 'https://www.google.com/profiles/111768720791554689410') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (46.9ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'thiyagarajanmpt@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'thiyagarajanmpt') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '89c3c0554305c6633e30a96058b7257d78ecd902c08fc131b3d4e3be9ba15e4b0269b36d6a6e120d5f8c9a65ae537628399d5d700ce16d0ae4d076aaecc72b87') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'NCpj6lXv1C41h9NqGGJ8') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `rpx_identifier`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('NCpj6lXv1C41h9NqGGJ8', NULL, '2011-01-20 18:51:41', NULL, 'lIat9SWKPnPUDumwtRAe', '2011-01-20 18:51:41', 0, NULL, NULL, NULL, '89c3c0554305c6633e30a96058b7257d78ecd902c08fc131b3d4e3be9ba15e4b0269b36d6a6e120d5f8c9a65ae537628399d5d700ce16d0ae4d076aaecc72b87', 0, 'https://www.google.com/profiles/111768720791554689410', NULL, 'thiyagarajanmpt', NULL, 'thiyagarajanmpt@gmail.com')[0m
+  [4;36;1mSQL (46.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.0ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-01-20 18:51:41', `perishable_token` = 'KNY5JcroItGCsn0OgVOa', `current_login_at` = '2011-01-20 18:51:41', `login_count` = 1, `current_login_ip` = '127.0.0.1', `last_request_at` = '2011-01-20 18:51:41' WHERE `id` = 1[0m
+  [4;35;1mSQL (62.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed in 2719ms (DB: 188) | 302 Found [http://localhost/login/rpx]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-01-21 00:21:41) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"users"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.0ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-01-20 18:51:41', `perishable_token` = 'NcEtl3BayO4g5cJWG3DB', `last_request_at` = '2011-01-20 18:51:41' WHERE `id` = 1[0m
+  [4;35;1mSQL (62.5ms)[0m   [0mCOMMIT[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-20 18:41:41') [0m
+Completed in 125ms (View: 16, DB: 63) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-01-21 00:21:59) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.0ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-01-20 18:51:59', `perishable_token` = 'PfkvVHNse3szVAsE5fY', `last_request_at` = '2011-01-20 18:51:59' WHERE `id` = 1[0m
+  [4;36;1mSQL (125.0ms)[0m   [0;1mCOMMIT[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-20 18:42:00') [0m
+Completed in 266ms (View: 31, DB: 125) | 200 OK [http://localhost/account]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#show (for 127.0.0.1 at 2011-01-21 00:22:18) [GET]
+  Parameters: {"action"=>"show", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, destroy, and new):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-21 00:22:23) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (15.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.0ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-01-20 18:52:23', `perishable_token` = 'VniSXifOETcYgxeerXr', `last_request_at` = '2011-01-20 18:52:23' WHERE `id` = 1[0m
+  [4;35;1mSQL (109.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/account
+Filter chain halted as [:require_no_user] rendered_or_redirected.
+Completed in 234ms (DB: 141) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-01-21 00:22:23) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Update (0.0ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2011-01-20 18:52:23', `perishable_token` = 'nizko9SGrMENKMJdu43z', `last_request_at` = '2011-01-20 18:52:23' WHERE `id` = 1[0m
+  [4;35;1mSQL (46.9ms)[0m   [0mCOMMIT[0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-20 18:42:23') [0m
+Completed in 109ms (View: 16, DB: 47) | 200 OK [http://localhost/account]
+  [4;35;1mSQL (15.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2011-01-21 00:22:27) [DELETE]
+  Parameters: {"action"=>"destroy", "_method"=>"delete", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.0ms)[0m   [0mUPDATE `users` SET `updated_at` = '2011-01-20 18:52:27', `perishable_token` = 'Qgmua3YXpXFZZVD9oCXk', `last_request_at` = '2011-01-20 18:52:27' WHERE `id` = 1[0m
+  [4;36;1mSQL (109.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 375ms (DB: 125) | 302 Found [http://localhost/user_session]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2011-01-21 00:22:27) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `users` WHERE (last_request_at > '2011-01-20 18:42:27') [0m
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/]
